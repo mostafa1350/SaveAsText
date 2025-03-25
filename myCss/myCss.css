@@ -33,15 +33,40 @@ body{
     margin-top:5px;
     margin-bottom:5px;
 }
-.mainBody .saveAs label{
+.mainBody .saveAs{
+    display:flex;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.mainBody .fileName{
+    margin: 8px;
+    font-size:1.2rem;
+    font-family:sans-serif;
+}
+.mainBody .fileName label{
     margin-right: 5px;
+}
+.mainBody .fileName input{
+    font-size: 20px;
+    padding:3px;
+    color : #1212ff;
 }
 .mainBody .selectMenu select{    
     font-family: sans-serif;
     font-size: 1.1rem;
+    margin-left:25px;
+    color: #128832;
 }
 .mainBody textarea{    
+    height:250px;
     font-family: sans-serif;
     font-size: 1.rem;
     resize:none;
+    padding: 7px;
+}
+.mainBody .btnSave{    
+    margin-top:17px;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    padding: 7px;
 }
