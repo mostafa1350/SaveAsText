@@ -69,4 +69,10 @@ body{
     font-family: sans-serif;
     font-size: 1.1rem;
     padding: 7px;
+    opacity : 0.6;
+    pointer-events =none;
+}
+.mainBody textarea:valid ~ .btnSave{    
+    opacity:1;
+    pointer-events = auto;
 }
